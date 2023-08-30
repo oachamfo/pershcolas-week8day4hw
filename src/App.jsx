@@ -16,6 +16,8 @@ export default function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/pershcolas-week8day4hw" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard stocks={stocks} />} />
         <Route path="/about" element={<About />} />
         <Route path="/stock/:symbol" element={<Stock stocks={stocks} />} />
