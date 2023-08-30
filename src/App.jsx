@@ -18,8 +18,9 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/pershcolas-week8day4hw" element={<Home />} />
-        <Route path="/dashboard" element={<Dashboard stocks={stocks} />} />
         <Route path="/about" element={<About />} />
+        <Route path="/dashboard" element={<Dashboard stocks={stocks} />} />
+        <Route path="/stocks" element={<Dashboard stocks={stocks} />} />
         <Route path="/stock/:symbol" element={<Stock stocks={stocks} />} />
       </Routes>
     </div>
